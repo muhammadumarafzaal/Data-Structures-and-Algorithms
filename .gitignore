@@ -1,0 +1,28 @@
+# Visual Studio build output
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.tlog
+
+# Visual Studio cache
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
