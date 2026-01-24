@@ -1,12 +1,18 @@
 
 # Visual Studio
 .vs/
-Debug/
-Release/
-*.user
-*.suo
-*.opensdf
-*.sdf
+**/Debug/
+**/Release/
+**/*.user
+**/*.suo
+**/*.opensdf
+**/*.sdf
+**/*.pdb
+**/*.ipch
+**/*.db
+**/*.dll
+**/*.ilk
+**/*.lib
 
 # C++ Compilation
 *.exe
@@ -22,16 +28,10 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-
 # Word/Office
 ~$*.doc*
 
-# More VS/C++ exclusions
-*.pdb
-*.ipch
-*.db
-*.dll
-x64/
-ipch/
-*.ilk
-*.lib
+# Directories
+**/x64/
+**/ipch/
+**/.vs/
