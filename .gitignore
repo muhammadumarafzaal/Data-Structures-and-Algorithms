@@ -1,28 +1,37 @@
-# Visual Studio build output
-x64/
+
+# Visual Studio
+.vs/
 Debug/
 Release/
-*.obj
+*.user
+*.suo
+*.opensdf
+*.sdf
+
+# C++ Compilation
 *.exe
-*.pdb
-*.ilk
-*.log
-*.tlog
+*.o
+*.obj
+*.out
 
-# Visual Studio cache
-.vs/
-*.vcxproj.user
-*.vcxproj.filters
-
-# IDE
+# VS Code
 .vscode/
-.idea/
 
 # OS
-.DS_Store
 Thumbs.db
+Desktop.ini
+.DS_Store
 
-# Temporary files
-*.swp
-*.swo
-*~
+
+# Word/Office
+~$*.doc*
+
+# More VS/C++ exclusions
+*.pdb
+*.ipch
+*.db
+*.dll
+x64/
+ipch/
+*.ilk
+*.lib
