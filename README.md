@@ -28,5 +28,4 @@ cd Data-Structures-and-Algorithms
 - GitHub: [@muhammadumarafzaal](https://github.com/muhammadumarafzaal)
 - Email: umarafzaal182@gmail.com
 
-## License
-MIT License
+
